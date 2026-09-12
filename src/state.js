@@ -1,11 +1,16 @@
 // Central game state. No DOM references here — main.js and debugPanel.js
-// read and mutate this, render/ draws from it.
+// read and mutate this, render/ and sim/ draw from and update it.
+
+import { createWind } from './sim/wind.js';
 
 export function createShip(overrides = {}) {
   return {
     x: 0,
     y: 0,
     heading: 0, // radians, 0 = sprite default orientation (bow toward +y)
+    speed: 0, // px/s, current
+    trim: 0.5, // 0 (no sail) .. 1 (full sail)
+    anchored: false,
     hullCondition: 1, // 1 best .. 4 worst
     sailWear: 1, // 1 clean .. 4 struck
     faction: 1, // 1..6, see FACTIONS
@@ -27,6 +32,7 @@ export const FACTIONS = [
 export function createState() {
   return {
     player: createShip({ faction: 1 }),
+    wind: createWind(),
   };
 }
 
