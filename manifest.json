@@ -1,0 +1,2475 @@
+{
+ "project": "Marrow Sea",
+ "source_repo": "https://github.com/eturner58/game-assets",
+ "upstream": "Kenney Game Assets All-in-1 v3.7.0",
+ "license": "CC0 1.0 (public domain)",
+ "credit": "Art by Kenney (kenney.nl) - CC0",
+ "count": 493,
+ "files": [
+  {
+   "file": "assets/ships/hull/hullLarge (1).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/hullLarge (1).png",
+   "role": "hull segment, four condition tints"
+  },
+  {
+   "file": "assets/ships/hull/hullLarge (2).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/hullLarge (2).png",
+   "role": "hull segment, four condition tints"
+  },
+  {
+   "file": "assets/ships/hull/hullLarge (3).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/hullLarge (3).png",
+   "role": "hull segment, four condition tints"
+  },
+  {
+   "file": "assets/ships/hull/hullLarge (4).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/hullLarge (4).png",
+   "role": "hull segment, four condition tints"
+  },
+  {
+   "file": "assets/ships/hull/hullSmall (1).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/hullSmall (1).png",
+   "role": "hull segment, four condition tints"
+  },
+  {
+   "file": "assets/ships/hull/hullSmall (2).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/hullSmall (2).png",
+   "role": "hull segment, four condition tints"
+  },
+  {
+   "file": "assets/ships/hull/hullSmall (3).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/hullSmall (3).png",
+   "role": "hull segment, four condition tints"
+  },
+  {
+   "file": "assets/ships/hull/hullSmall (4).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/hullSmall (4).png",
+   "role": "hull segment, four condition tints"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (1).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (1).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (10).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (10).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (11).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (11).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (12).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (12).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (13).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (13).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (14).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (14).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (15).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (15).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (16).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (16).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (17).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (17).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (18).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (18).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (19).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (19).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (2).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (2).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (20).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (20).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (21).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (21).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (22).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (22).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (23).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (23).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (24).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (24).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (3).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (3).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (4).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (4).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (5).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (5).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (6).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (6).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (7).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (7).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (8).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (8).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailLarge (9).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailLarge (9).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailSmall (1).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailSmall (1).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailSmall (10).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailSmall (10).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailSmall (11).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailSmall (11).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailSmall (12).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailSmall (12).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailSmall (13).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailSmall (13).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailSmall (2).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailSmall (2).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailSmall (3).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailSmall (3).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailSmall (4).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailSmall (4).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailSmall (5).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailSmall (5).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailSmall (6).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailSmall (6).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailSmall (7).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailSmall (7).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailSmall (8).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailSmall (8).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/sail/sailSmall (9).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/sailSmall (9).png",
+   "role": "sail, six faction emblems by four wear states"
+  },
+  {
+   "file": "assets/ships/flag/flag (1).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/flag (1).png",
+   "role": "masthead flag, one per faction"
+  },
+  {
+   "file": "assets/ships/flag/flag (2).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/flag (2).png",
+   "role": "masthead flag, one per faction"
+  },
+  {
+   "file": "assets/ships/flag/flag (3).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/flag (3).png",
+   "role": "masthead flag, one per faction"
+  },
+  {
+   "file": "assets/ships/flag/flag (4).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/flag (4).png",
+   "role": "masthead flag, one per faction"
+  },
+  {
+   "file": "assets/ships/flag/flag (5).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/flag (5).png",
+   "role": "masthead flag, one per faction"
+  },
+  {
+   "file": "assets/ships/flag/flag (6).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/flag (6).png",
+   "role": "masthead flag, one per faction"
+  },
+  {
+   "file": "assets/ships/crew/crew (1).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/crew (1).png",
+   "role": "crew figure on deck"
+  },
+  {
+   "file": "assets/ships/crew/crew (2).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/crew (2).png",
+   "role": "crew figure on deck"
+  },
+  {
+   "file": "assets/ships/crew/crew (3).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/crew (3).png",
+   "role": "crew figure on deck"
+  },
+  {
+   "file": "assets/ships/crew/crew (4).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/crew (4).png",
+   "role": "crew figure on deck"
+  },
+  {
+   "file": "assets/ships/crew/crew (5).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/crew (5).png",
+   "role": "crew figure on deck"
+  },
+  {
+   "file": "assets/ships/crew/crew (6).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/crew (6).png",
+   "role": "crew figure on deck"
+  },
+  {
+   "file": "assets/ships/gun/cannon.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/cannon.png",
+   "role": "cannon, loose cannon, mobile cannon, ball"
+  },
+  {
+   "file": "assets/ships/gun/cannonBall.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/cannonBall.png",
+   "role": "cannon, loose cannon, mobile cannon, ball"
+  },
+  {
+   "file": "assets/ships/gun/cannonLoose.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/cannonLoose.png",
+   "role": "cannon, loose cannon, mobile cannon, ball"
+  },
+  {
+   "file": "assets/ships/gun/cannonMobile.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/cannonMobile.png",
+   "role": "cannon, loose cannon, mobile cannon, ball"
+  },
+  {
+   "file": "assets/ships/debris/wood (1).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/wood (1).png",
+   "role": "floating plank debris"
+  },
+  {
+   "file": "assets/ships/debris/wood (2).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/wood (2).png",
+   "role": "floating plank debris"
+  },
+  {
+   "file": "assets/ships/debris/wood (3).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/wood (3).png",
+   "role": "floating plank debris"
+  },
+  {
+   "file": "assets/ships/debris/wood (4).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/wood (4).png",
+   "role": "floating plank debris"
+  },
+  {
+   "file": "assets/ships/rig/nest.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/nest.png",
+   "role": "mast and crow nest"
+  },
+  {
+   "file": "assets/ships/rig/pole.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ship parts/pole.png",
+   "role": "mast and crow nest"
+  },
+  {
+   "file": "assets/ships/prebuilt/dinghyLarge1.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/dinghyLarge1.png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/dinghyLarge2.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/dinghyLarge2.png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/dinghyLarge3.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/dinghyLarge3.png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/dinghySmall1.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/dinghySmall1.png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/dinghySmall2.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/dinghySmall2.png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/dinghySmall3.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/dinghySmall3.png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (1).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (1).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (10).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (10).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (11).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (11).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (12).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (12).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (13).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (13).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (14).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (14).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (15).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (15).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (16).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (16).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (17).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (17).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (18).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (18).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (19).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (19).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (2).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (2).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (20).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (20).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (21).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (21).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (22).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (22).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (23).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (23).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (24).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (24).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (3).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (3).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (4).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (4).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (5).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (5).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (6).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (6).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (7).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (7).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (8).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (8).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/ships/prebuilt/ship (9).png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Ships/ship (9).png",
+   "role": "pre-assembled reference ship and dinghy"
+  },
+  {
+   "file": "assets/world/tiles/tile_01.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_01.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_02.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_02.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_03.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_03.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_04.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_04.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_05.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_05.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_06.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_06.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_07.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_07.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_08.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_08.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_09.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_09.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_10.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_10.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_11.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_11.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_12.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_12.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_13.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_13.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_14.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_14.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_15.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_15.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_16.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_16.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_17.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_17.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_18.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_18.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_19.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_19.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_20.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_20.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_21.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_21.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_22.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_22.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_23.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_23.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_24.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_24.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_25.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_25.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_26.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_26.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_27.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_27.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_28.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_28.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_29.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_29.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_30.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_30.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_31.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_31.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_32.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_32.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_33.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_33.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_34.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_34.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_35.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_35.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_36.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_36.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_37.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_37.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_38.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_38.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_39.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_39.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_40.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_40.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_41.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_41.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_42.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_42.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_43.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_43.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_44.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_44.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_45.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_45.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_46.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_46.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_47.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_47.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_48.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_48.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_49.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_49.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_50.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_50.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_51.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_51.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_52.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_52.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_53.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_53.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_54.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_54.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_55.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_55.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_56.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_56.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_57.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_57.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_58.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_58.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_59.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_59.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_60.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_60.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_61.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_61.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_62.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_62.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_63.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_63.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_64.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_64.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_65.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_65.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_66.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_66.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_67.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_67.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_68.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_68.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_69.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_69.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_70.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_70.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_71.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_71.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_72.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_72.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_73.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_73.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_74.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_74.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_75.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_75.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_76.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_76.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_77.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_77.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_78.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_78.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_79.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_79.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_80.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_80.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_81.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_81.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_82.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_82.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_83.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_83.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_84.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_84.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_85.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_85.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_86.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_86.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_87.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_87.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_88.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_88.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_89.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_89.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_90.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_90.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_91.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_91.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_92.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_92.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_93.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_93.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_94.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_94.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_95.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_95.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/world/tiles/tile_96.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Tiles/tile_96.png",
+   "role": "island, beach, stone quay and prop tile"
+  },
+  {
+   "file": "assets/fx/pirate/explosion1.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Effects/explosion1.png",
+   "role": "explosion and fire frame"
+  },
+  {
+   "file": "assets/fx/pirate/explosion2.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Effects/explosion2.png",
+   "role": "explosion and fire frame"
+  },
+  {
+   "file": "assets/fx/pirate/explosion3.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Effects/explosion3.png",
+   "role": "explosion and fire frame"
+  },
+  {
+   "file": "assets/fx/pirate/fire1.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Effects/fire1.png",
+   "role": "explosion and fire frame"
+  },
+  {
+   "file": "assets/fx/pirate/fire2.png",
+   "source": "2D assets/Pirate Pack/PNG/Default size/Effects/fire2.png",
+   "role": "explosion and fire frame"
+  },
+  {
+   "file": "assets/world/tiles_sheet.png",
+   "source": "2D assets/Pirate Pack/Tilesheet/tiles_sheet.png",
+   "role": "packed tilesheet"
+  },
+  {
+   "file": "assets/world/tilesheets.txt",
+   "source": "2D assets/Pirate Pack/Tilesheet/tilesheets.txt",
+   "role": "tilesheet grid notes"
+  },
+  {
+   "file": "assets/ships/shipsMiscellaneous_sheet.png",
+   "source": "2D assets/Pirate Pack/Spritesheet/shipsMiscellaneous_sheet.png",
+   "role": "packed ship spritesheet"
+  },
+  {
+   "file": "assets/ships/shipsMiscellaneous_sheet.xml",
+   "source": "2D assets/Pirate Pack/Spritesheet/shipsMiscellaneous_sheet.xml",
+   "role": "frame coordinates for the ship spritesheet"
+  },
+  {
+   "file": "previews/pirate-pack.png",
+   "source": "2D assets/Pirate Pack/Preview.png",
+   "role": "pack preview"
+  },
+  {
+   "file": "assets/chart/icons/arrowCorner.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/arrowCorner.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/arrowEnd.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/arrowEnd.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/arrowHead.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/arrowHead.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/arrowStraight.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/arrowStraight.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/banner.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/banner.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/campfire.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/campfire.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/castle.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/castle.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/castleTall.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/castleTall.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/castleWide.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/castleWide.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/chest.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/chest.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/church.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/church.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/compass.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/compass.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/dock.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/dock.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/elementCircle.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/elementCircle.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/elementCross.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/elementCross.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/elementDiamond.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/elementDiamond.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/elementShield.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/elementShield.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/elementSquare.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/elementSquare.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/flag.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/flag.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/gate.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/gate.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/graveyard.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/graveyard.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/houseSmall.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/houseSmall.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/houses.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/houses.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/lake.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/lake.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/lakeRound.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/lakeRound.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/lighthouse.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/lighthouse.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/mine.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/mine.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/palm.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/palm.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/palmLarge.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/palmLarge.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/pathCorner.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/pathCorner.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/pathCrossing.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/pathCrossing.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/pathEnd.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/pathEnd.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/pathStraight.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/pathStraight.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/rocks.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/rocks.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/rocksA.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/rocksA.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/rocksB.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/rocksB.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/rocksMountain.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/rocksMountain.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/runis.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/runis.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/ship.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/ship.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/skull.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/skull.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/tent.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/tent.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/textureStone.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/textureStone.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/textureWater.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/textureWater.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/tower.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/tower.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/towerWatch.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/towerWatch.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/vulcano.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/vulcano.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/wall.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/wall.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/watchtower.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/watchtower.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/icons/well.png",
+   "source": "2D assets/Cartography Pack/PNG/Default/well.png",
+   "role": "hand-drawn chart marker"
+  },
+  {
+   "file": "assets/chart/paper/parchmentBasic.png",
+   "source": "2D assets/Cartography Pack/Textures/parchmentBasic.png",
+   "role": "parchment background for the chart screen"
+  },
+  {
+   "file": "assets/chart/paper/parchmentCrinkled.png",
+   "source": "2D assets/Cartography Pack/Textures/parchmentCrinkled.png",
+   "role": "parchment background for the chart screen"
+  },
+  {
+   "file": "assets/chart/paper/parchmentFolded.png",
+   "source": "2D assets/Cartography Pack/Textures/parchmentFolded.png",
+   "role": "parchment background for the chart screen"
+  },
+  {
+   "file": "assets/chart/paper/parchmentAncient.png",
+   "source": "2D assets/Cartography Pack/Textures/parchmentAncient.png",
+   "role": "parchment background for the chart screen"
+  },
+  {
+   "file": "previews/cartography-pack.png",
+   "source": "2D assets/Cartography Pack/Preview.png",
+   "role": "pack preview"
+  },
+  {
+   "file": "assets/ui/banner_classic_curtain.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/banner_classic_curtain.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/banner_hanging.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/banner_hanging.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/button_brown.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/button_brown.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/button_brown_close.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/button_brown_close.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/button_grey.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/button_grey.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/button_red.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/button_red.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/checkbox_brown_checked.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/checkbox_brown_checked.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/checkbox_brown_cross.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/checkbox_brown_cross.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/checkbox_brown_empty.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/checkbox_brown_empty.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/minimap_arrow_a.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/minimap_arrow_a.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/minimap_arrow_b.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/minimap_arrow_b.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/minimap_arrow_c.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/minimap_arrow_c.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/minimap_arrow_d.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/minimap_arrow_d.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/minimap_compass_toon_e.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/minimap_compass_toon_e.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/minimap_compass_toon_n.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/minimap_compass_toon_n.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/minimap_compass_toon_s.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/minimap_compass_toon_s.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/minimap_compass_toon_w.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/minimap_compass_toon_w.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/minimap_icon_exclamation_red.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/minimap_icon_exclamation_red.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/minimap_icon_exclamation_white.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/minimap_icon_exclamation_white.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/minimap_icon_exclamation_yellow.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/minimap_icon_exclamation_yellow.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/minimap_icon_jewel_red.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/minimap_icon_jewel_red.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/minimap_icon_jewel_white.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/minimap_icon_jewel_white.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/minimap_icon_jewel_yellow.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/minimap_icon_jewel_yellow.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/minimap_icon_star_red.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/minimap_icon_star_red.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/minimap_icon_star_white.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/minimap_icon_star_white.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/minimap_icon_star_yellow.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/minimap_icon_star_yellow.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/minimap_ring_brown.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/minimap_ring_brown.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/minimap_ring_brown_detail.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/minimap_ring_brown_detail.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/minimap_ring_grey_detail.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/minimap_ring_grey_detail.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/panel_border_brown.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/panel_border_brown.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/panel_border_brown_detail.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/panel_border_brown_detail.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/panel_brown.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/panel_brown.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/panel_brown_corners_a.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/panel_brown_corners_a.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/panel_brown_corners_b.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/panel_brown_corners_b.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/panel_brown_damaged.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/panel_brown_damaged.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/panel_brown_damaged_dark.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/panel_brown_damaged_dark.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/panel_brown_dark.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/panel_brown_dark.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/panel_grey.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/panel_grey.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/panel_grey_dark.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/panel_grey_dark.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/panel_grid_paper.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/panel_grid_paper.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/pattern_diagonal_grey_small.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/pattern_diagonal_grey_small.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/pattern_grid_paper.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/pattern_grid_paper.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/progress_blue.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/progress_blue.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/progress_blue_border.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/progress_blue_border.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/progress_green.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/progress_green.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/progress_green_border.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/progress_green_border.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/progress_green_small.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/progress_green_small.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/progress_green_small_border.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/progress_green_small_border.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/progress_red.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/progress_red.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/progress_red_border.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/progress_red_border.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/progress_red_small.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/progress_red_small.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/progress_red_small_border.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/progress_red_small_border.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/progress_transparent.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/progress_transparent.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/progress_white.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/progress_white.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/progress_white_border.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/progress_white_border.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/round_brown.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/round_brown.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/round_brown_dark.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/round_brown_dark.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/round_damaged_brown.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/round_damaged_brown.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/round_grey.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/round_grey.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/round_grey_detailed_green.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/round_grey_detailed_green.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/round_grey_detailed_red.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/round_grey_detailed_red.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/scrollbar_brown.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/scrollbar_brown.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "assets/ui/scrollbar_brown_small.png",
+   "source": "UI assets/UI Pack - Adventure/PNG/Default/scrollbar_brown_small.png",
+   "role": "adventure interface element"
+  },
+  {
+   "file": "previews/ui-pack-adventure.png",
+   "source": "UI assets/UI Pack - Adventure/Preview.png",
+   "role": "pack preview"
+  },
+  {
+   "file": "assets/fx/particles/circle_01.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/circle_01.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/circle_04.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/circle_04.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/circle_05.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/circle_05.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/dirt_01.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/dirt_01.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/dirt_02.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/dirt_02.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/fire_01.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/fire_01.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/fire_02.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/fire_02.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/flame_01.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/flame_01.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/flame_03.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/flame_03.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/flame_05.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/flame_05.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/flare_01.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/flare_01.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/light_01.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/light_01.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/light_02.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/light_02.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/light_03.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/light_03.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/muzzle_01.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/muzzle_01.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/muzzle_02.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/muzzle_02.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/muzzle_03.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/muzzle_03.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/muzzle_04.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/muzzle_04.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/muzzle_05.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/muzzle_05.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/scorch_01.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/scorch_01.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/scorch_02.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/scorch_02.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/scorch_03.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/scorch_03.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/smoke_01.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/smoke_01.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/smoke_03.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/smoke_03.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/smoke_04.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/smoke_04.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/smoke_05.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/smoke_05.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/smoke_07.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/smoke_07.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/smoke_09.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/smoke_09.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/smoke_10.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/smoke_10.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/spark_01.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/spark_01.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/spark_04.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/spark_04.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/spark_06.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/spark_06.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/spark_07.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/spark_07.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/star_04.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/star_04.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/star_08.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/star_08.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/trace_01.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/trace_01.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/trace_03.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/trace_03.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/trace_06.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/trace_06.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/twirl_01.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/twirl_01.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/twirl_03.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/twirl_03.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/window_02.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/window_02.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/particles/window_04.png",
+   "source": "2D assets/Particle Pack/PNG (Transparent)/window_04.png",
+   "role": "greyscale particle texture, tint at runtime"
+  },
+  {
+   "file": "assets/fx/explosion/regular-explosion/regularExplosion00.png",
+   "source": "2D assets/Explosion Pack/PNG/Regular explosion/regularExplosion00.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/regular-explosion/regularExplosion01.png",
+   "source": "2D assets/Explosion Pack/PNG/Regular explosion/regularExplosion01.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/regular-explosion/regularExplosion02.png",
+   "source": "2D assets/Explosion Pack/PNG/Regular explosion/regularExplosion02.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/regular-explosion/regularExplosion03.png",
+   "source": "2D assets/Explosion Pack/PNG/Regular explosion/regularExplosion03.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/regular-explosion/regularExplosion04.png",
+   "source": "2D assets/Explosion Pack/PNG/Regular explosion/regularExplosion04.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/regular-explosion/regularExplosion05.png",
+   "source": "2D assets/Explosion Pack/PNG/Regular explosion/regularExplosion05.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/regular-explosion/regularExplosion06.png",
+   "source": "2D assets/Explosion Pack/PNG/Regular explosion/regularExplosion06.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/regular-explosion/regularExplosion07.png",
+   "source": "2D assets/Explosion Pack/PNG/Regular explosion/regularExplosion07.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/regular-explosion/regularExplosion08.png",
+   "source": "2D assets/Explosion Pack/PNG/Regular explosion/regularExplosion08.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/simple-explosion/simpleExplosion00.png",
+   "source": "2D assets/Explosion Pack/PNG/Simple explosion/simpleExplosion00.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/simple-explosion/simpleExplosion01.png",
+   "source": "2D assets/Explosion Pack/PNG/Simple explosion/simpleExplosion01.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/simple-explosion/simpleExplosion02.png",
+   "source": "2D assets/Explosion Pack/PNG/Simple explosion/simpleExplosion02.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/simple-explosion/simpleExplosion03.png",
+   "source": "2D assets/Explosion Pack/PNG/Simple explosion/simpleExplosion03.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/simple-explosion/simpleExplosion04.png",
+   "source": "2D assets/Explosion Pack/PNG/Simple explosion/simpleExplosion04.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/simple-explosion/simpleExplosion05.png",
+   "source": "2D assets/Explosion Pack/PNG/Simple explosion/simpleExplosion05.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/simple-explosion/simpleExplosion06.png",
+   "source": "2D assets/Explosion Pack/PNG/Simple explosion/simpleExplosion06.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/simple-explosion/simpleExplosion07.png",
+   "source": "2D assets/Explosion Pack/PNG/Simple explosion/simpleExplosion07.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/simple-explosion/simpleExplosion08.png",
+   "source": "2D assets/Explosion Pack/PNG/Simple explosion/simpleExplosion08.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/ground-explosion/groundExplosion00.png",
+   "source": "2D assets/Explosion Pack/PNG/Ground explosion/groundExplosion00.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/ground-explosion/groundExplosion01.png",
+   "source": "2D assets/Explosion Pack/PNG/Ground explosion/groundExplosion01.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/ground-explosion/groundExplosion02.png",
+   "source": "2D assets/Explosion Pack/PNG/Ground explosion/groundExplosion02.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/ground-explosion/groundExplosion03.png",
+   "source": "2D assets/Explosion Pack/PNG/Ground explosion/groundExplosion03.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/ground-explosion/groundExplosion04.png",
+   "source": "2D assets/Explosion Pack/PNG/Ground explosion/groundExplosion04.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/ground-explosion/groundExplosion05.png",
+   "source": "2D assets/Explosion Pack/PNG/Ground explosion/groundExplosion05.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/ground-explosion/groundExplosion06.png",
+   "source": "2D assets/Explosion Pack/PNG/Ground explosion/groundExplosion06.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/ground-explosion/groundExplosion07.png",
+   "source": "2D assets/Explosion Pack/PNG/Ground explosion/groundExplosion07.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/ground-explosion/groundExplosion08.png",
+   "source": "2D assets/Explosion Pack/PNG/Ground explosion/groundExplosion08.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/particles/burst.png",
+   "source": "2D assets/Explosion Pack/PNG/Particles/burst.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/particles/greyCloud1.png",
+   "source": "2D assets/Explosion Pack/PNG/Particles/greyCloud1.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/particles/greyCloud2.png",
+   "source": "2D assets/Explosion Pack/PNG/Particles/greyCloud2.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/particles/greyCloud4.png",
+   "source": "2D assets/Explosion Pack/PNG/Particles/greyCloud4.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/particles/greyCloudw3.png",
+   "source": "2D assets/Explosion Pack/PNG/Particles/greyCloudw3.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/particles/orangeCloud1.png",
+   "source": "2D assets/Explosion Pack/PNG/Particles/orangeCloud1.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/particles/orangeCloud2.png",
+   "source": "2D assets/Explosion Pack/PNG/Particles/orangeCloud2.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/particles/orangeCloud3.png",
+   "source": "2D assets/Explosion Pack/PNG/Particles/orangeCloud3.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/particles/orangeCloud4.png",
+   "source": "2D assets/Explosion Pack/PNG/Particles/orangeCloud4.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/particles/redCloud1.png",
+   "source": "2D assets/Explosion Pack/PNG/Particles/redCloud1.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/particles/redCloud2.png",
+   "source": "2D assets/Explosion Pack/PNG/Particles/redCloud2.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/particles/redCloud3.png",
+   "source": "2D assets/Explosion Pack/PNG/Particles/redCloud3.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/particles/redCloud4.png",
+   "source": "2D assets/Explosion Pack/PNG/Particles/redCloud4.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/particles/yellowCloud1.png",
+   "source": "2D assets/Explosion Pack/PNG/Particles/yellowCloud1.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/particles/yellowCloud2.png",
+   "source": "2D assets/Explosion Pack/PNG/Particles/yellowCloud2.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/particles/yellowCloud3.png",
+   "source": "2D assets/Explosion Pack/PNG/Particles/yellowCloud3.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "assets/fx/explosion/particles/yellowCloud4.png",
+   "source": "2D assets/Explosion Pack/PNG/Particles/yellowCloud4.png",
+   "role": "flat vector explosion frame"
+  },
+  {
+   "file": "previews/explosion-pack.png",
+   "source": "2D assets/Explosion Pack/Preview.png",
+   "role": "pack preview"
+  },
+  {
+   "file": "previews/particle-pack.png",
+   "source": "2D assets/Particle Pack/Preview.png",
+   "role": "pack preview"
+  },
+  {
+   "file": "assets/cursors/crosshair-005.png",
+   "source": "2D assets/Crosshair Pack/PNG/Outline/crosshair-005.png",
+   "role": "aiming reticle"
+  },
+  {
+   "file": "assets/cursors/crosshair-007.png",
+   "source": "2D assets/Crosshair Pack/PNG/Outline/crosshair-007.png",
+   "role": "aiming reticle"
+  },
+  {
+   "file": "assets/cursors/crosshair-011.png",
+   "source": "2D assets/Crosshair Pack/PNG/Outline/crosshair-011.png",
+   "role": "aiming reticle"
+  },
+  {
+   "file": "assets/cursors/crosshair-018.png",
+   "source": "2D assets/Crosshair Pack/PNG/Outline/crosshair-018.png",
+   "role": "aiming reticle"
+  },
+  {
+   "file": "assets/cursors/crosshair-021.png",
+   "source": "2D assets/Crosshair Pack/PNG/Outline/crosshair-021.png",
+   "role": "aiming reticle"
+  },
+  {
+   "file": "assets/cursors/crosshair-030.png",
+   "source": "2D assets/Crosshair Pack/PNG/Outline/crosshair-030.png",
+   "role": "aiming reticle"
+  },
+  {
+   "file": "assets/cursors/crosshair-033.png",
+   "source": "2D assets/Crosshair Pack/PNG/Outline/crosshair-033.png",
+   "role": "aiming reticle"
+  },
+  {
+   "file": "assets/cursors/crosshair-045.png",
+   "source": "2D assets/Crosshair Pack/PNG/Outline/crosshair-045.png",
+   "role": "aiming reticle"
+  },
+  {
+   "file": "assets/prompts/keyboard_1.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/keyboard_1.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/prompts/keyboard_2.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/keyboard_2.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/prompts/keyboard_3.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/keyboard_3.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/prompts/keyboard_a.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/keyboard_a.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/prompts/keyboard_ctrl.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/keyboard_ctrl.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/prompts/keyboard_d.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/keyboard_d.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/prompts/keyboard_e.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/keyboard_e.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/prompts/keyboard_escape.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/keyboard_escape.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/prompts/keyboard_f.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/keyboard_f.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/prompts/keyboard_m.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/keyboard_m.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/prompts/keyboard_q.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/keyboard_q.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/prompts/keyboard_r.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/keyboard_r.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/prompts/keyboard_s.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/keyboard_s.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/prompts/keyboard_shift.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/keyboard_shift.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/prompts/keyboard_space.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/keyboard_space.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/prompts/keyboard_tab.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/keyboard_tab.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/prompts/keyboard_w.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/keyboard_w.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/prompts/mouse.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/mouse.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/prompts/mouse_left.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/mouse_left.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/prompts/mouse_move.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/mouse_move.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/prompts/mouse_right.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/mouse_right.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/prompts/mouse_scroll_vertical.png",
+   "source": "Icons/Input Prompts/Keyboard & Mouse/Default/mouse_scroll_vertical.png",
+   "role": "key or mouse prompt glyph"
+  },
+  {
+   "file": "assets/fonts/Kenney Future.ttf",
+   "source": "Other/Fonts/Kenney Future.ttf",
+   "role": "display typeface"
+  },
+  {
+   "file": "assets/fonts/Kenney Future Narrow.ttf",
+   "source": "Other/Fonts/Kenney Future Narrow.ttf",
+   "role": "display typeface"
+  },
+  {
+   "file": "assets/fonts/Kenney Mini Square.ttf",
+   "source": "Other/Fonts/Kenney Mini Square.ttf",
+   "role": "display typeface"
+  },
+  {
+   "file": "assets/fonts/Kenney Pixel.ttf",
+   "source": "Other/Fonts/Kenney Pixel.ttf",
+   "role": "display typeface"
+  },
+  {
+   "file": "assets/fonts/Kenney Bold.ttf",
+   "source": "Other/Fonts/Kenney Bold.ttf",
+   "role": "display typeface"
+  },
+  {
+   "file": "assets/fonts/Kenney Blocks.ttf",
+   "source": "Other/Fonts/Kenney Blocks.ttf",
+   "role": "display typeface"
+  },
+  {
+   "file": "audio/cannon/lowFrequency_explosion_000.ogg",
+   "source": "Audio/Sci-Fi Sounds/Audio/lowFrequency_explosion_000.ogg",
+   "role": "cannon fire, pitch down"
+  },
+  {
+   "file": "audio/cannon/lowFrequency_explosion_001.ogg",
+   "source": "Audio/Sci-Fi Sounds/Audio/lowFrequency_explosion_001.ogg",
+   "role": "cannon fire, pitch down"
+  },
+  {
+   "file": "audio/cannon/explosionCrunch_000.ogg",
+   "source": "Audio/Sci-Fi Sounds/Audio/explosionCrunch_000.ogg",
+   "role": "cannon fire layer"
+  },
+  {
+   "file": "audio/cannon/explosionCrunch_002.ogg",
+   "source": "Audio/Sci-Fi Sounds/Audio/explosionCrunch_002.ogg",
+   "role": "cannon fire layer"
+  },
+  {
+   "file": "audio/cannon/explosionCrunch_004.ogg",
+   "source": "Audio/Sci-Fi Sounds/Audio/explosionCrunch_004.ogg",
+   "role": "powder magazine detonation"
+  },
+  {
+   "file": "audio/cannon/rumble1.ogg",
+   "source": "Audio/Retro Sounds 1/Audio/rumble1.ogg",
+   "role": "distant broadside"
+  },
+  {
+   "file": "audio/cannon/rumble3.ogg",
+   "source": "Audio/Retro Sounds 1/Audio/rumble3.ogg",
+   "role": "distant broadside"
+  },
+  {
+   "file": "audio/impact/impactWood_heavy_000.ogg",
+   "source": "Audio/Impact Sounds/Audio/impactWood_heavy_000.ogg",
+   "role": "ball strikes hull"
+  },
+  {
+   "file": "audio/impact/impactWood_heavy_002.ogg",
+   "source": "Audio/Impact Sounds/Audio/impactWood_heavy_002.ogg",
+   "role": "ball strikes hull"
+  },
+  {
+   "file": "audio/impact/impactWood_heavy_004.ogg",
+   "source": "Audio/Impact Sounds/Audio/impactWood_heavy_004.ogg",
+   "role": "ball strikes hull"
+  },
+  {
+   "file": "audio/impact/impactPlank_medium_000.ogg",
+   "source": "Audio/Impact Sounds/Audio/impactPlank_medium_000.ogg",
+   "role": "hull splintering"
+  },
+  {
+   "file": "audio/impact/impactPlank_medium_003.ogg",
+   "source": "Audio/Impact Sounds/Audio/impactPlank_medium_003.ogg",
+   "role": "hull splintering"
+  },
+  {
+   "file": "audio/impact/impactBell_heavy_000.ogg",
+   "source": "Audio/Impact Sounds/Audio/impactBell_heavy_000.ogg",
+   "role": "ship bell, alarm and watch change"
+  },
+  {
+   "file": "audio/water/sinkWater1.ogg",
+   "source": "Audio/Foley Sounds/Audio/Water/sinkWater1.ogg",
+   "role": "ball splashes short"
+  },
+  {
+   "file": "audio/water/sinkWater2.ogg",
+   "source": "Audio/Foley Sounds/Audio/Water/sinkWater2.ogg",
+   "role": "ball splashes short"
+  },
+  {
+   "file": "audio/water/sinkWater3.ogg",
+   "source": "Audio/Foley Sounds/Audio/Water/sinkWater3.ogg",
+   "role": "hull takes water"
+  },
+  {
+   "file": "audio/water/sinkDrain1.ogg",
+   "source": "Audio/Foley Sounds/Audio/Water/sinkDrain1.ogg",
+   "role": "ship going down"
+  },
+  {
+   "file": "audio/water/drip2.ogg",
+   "source": "Audio/Foley Sounds/Audio/Water/drip2.ogg",
+   "role": "bilge drip below deck"
+  },
+  {
+   "file": "audio/rig/woosh1.ogg",
+   "source": "Audio/Foley Sounds/Audio/Woosh/woosh1.ogg",
+   "role": "sail catching wind"
+  },
+  {
+   "file": "audio/rig/woosh4.ogg",
+   "source": "Audio/Foley Sounds/Audio/Woosh/woosh4.ogg",
+   "role": "sail catching wind"
+  },
+  {
+   "file": "audio/rig/woosh7.ogg",
+   "source": "Audio/Foley Sounds/Audio/Woosh/woosh7.ogg",
+   "role": "ball passing close"
+  },
+  {
+   "file": "audio/rig/creak1.ogg",
+   "source": "Audio/RPG Audio/Audio/creak1.ogg",
+   "role": "hull creak under load"
+  },
+  {
+   "file": "audio/rig/creak2.ogg",
+   "source": "Audio/RPG Audio/Audio/creak2.ogg",
+   "role": "hull creak under load"
+  },
+  {
+   "file": "audio/rig/creak3.ogg",
+   "source": "Audio/RPG Audio/Audio/creak3.ogg",
+   "role": "mast strain warning"
+  },
+  {
+   "file": "audio/rig/cloth1.ogg",
+   "source": "Audio/RPG Audio/Audio/cloth1.ogg",
+   "role": "canvas flap when trimming"
+  },
+  {
+   "file": "audio/rig/cloth3.ogg",
+   "source": "Audio/RPG Audio/Audio/cloth3.ogg",
+   "role": "canvas flap when trimming"
+  },
+  {
+   "file": "audio/rig/footstep_wood_000.ogg",
+   "source": "Audio/Impact Sounds/Audio/footstep_wood_000.ogg",
+   "role": "crew moving on deck"
+  },
+  {
+   "file": "audio/rig/footstep_wood_003.ogg",
+   "source": "Audio/Impact Sounds/Audio/footstep_wood_003.ogg",
+   "role": "crew moving on deck"
+  },
+  {
+   "file": "audio/boarding/sword1.ogg",
+   "source": "Audio/Foley Sounds/Audio/Swords/sword1.ogg",
+   "role": "cutlass swing"
+  },
+  {
+   "file": "audio/boarding/sword5.ogg",
+   "source": "Audio/Foley Sounds/Audio/Swords/sword5.ogg",
+   "role": "cutlass swing"
+  },
+  {
+   "file": "audio/boarding/hitHelmet2.ogg",
+   "source": "Audio/Foley Sounds/Audio/Swords/hitHelmet2.ogg",
+   "role": "blow lands"
+  },
+  {
+   "file": "audio/boarding/swordSlide1.ogg",
+   "source": "Audio/Foley Sounds/Audio/Swords/swordSlide1.ogg",
+   "role": "blade drawn"
+  },
+  {
+   "file": "audio/port/handleCoins.ogg",
+   "source": "Audio/RPG Audio/Audio/handleCoins.ogg",
+   "role": "payment at port"
+  },
+  {
+   "file": "audio/port/handleCoins2.ogg",
+   "source": "Audio/RPG Audio/Audio/handleCoins2.ogg",
+   "role": "payment at port"
+  },
+  {
+   "file": "audio/port/bookFlip1.ogg",
+   "source": "Audio/RPG Audio/Audio/bookFlip1.ogg",
+   "role": "chart or ledger page turn"
+  },
+  {
+   "file": "audio/port/bookFlip3.ogg",
+   "source": "Audio/RPG Audio/Audio/bookFlip3.ogg",
+   "role": "chart or ledger page turn"
+  },
+  {
+   "file": "audio/ui/click_001.ogg",
+   "source": "Audio/Interface Sounds/Audio/click_001.ogg",
+   "role": "button press"
+  },
+  {
+   "file": "audio/ui/select_001.ogg",
+   "source": "Audio/Interface Sounds/Audio/select_001.ogg",
+   "role": "menu move"
+  },
+  {
+   "file": "audio/ui/confirmation_003.ogg",
+   "source": "Audio/Interface Sounds/Audio/confirmation_003.ogg",
+   "role": "confirm"
+  },
+  {
+   "file": "audio/ui/error_002.ogg",
+   "source": "Audio/Interface Sounds/Audio/error_002.ogg",
+   "role": "refused action"
+  },
+  {
+   "file": "audio/ui/open_001.ogg",
+   "source": "Audio/Interface Sounds/Audio/open_001.ogg",
+   "role": "panel open"
+  },
+  {
+   "file": "audio/ui/close_001.ogg",
+   "source": "Audio/Interface Sounds/Audio/close_001.ogg",
+   "role": "panel close"
+  },
+  {
+   "file": "audio/ui/toggle_001.ogg",
+   "source": "Audio/Interface Sounds/Audio/toggle_001.ogg",
+   "role": "toggle"
+  },
+  {
+   "file": "audio/music/Night at the Beach.ogg",
+   "source": "Audio/Music Loops/Loops/Night at the Beach.ogg",
+   "role": "port and calm sailing loop"
+  },
+  {
+   "file": "audio/music/Mission Plausible.ogg",
+   "source": "Audio/Music Loops/Loops/Mission Plausible.ogg",
+   "role": "pursuit and combat loop"
+  },
+  {
+   "file": "audio/music/Infinite Descent.ogg",
+   "source": "Audio/Music Loops/Loops/Infinite Descent.ogg",
+   "role": "deep water tension loop"
+  },
+  {
+   "file": "audio/music/Sad Descent.ogg",
+   "source": "Audio/Music Loops/Loops/Sad Descent.ogg",
+   "role": "ship lost"
+  },
+  {
+   "file": "audio/music/Game Over.ogg",
+   "source": "Audio/Music Loops/Loops/Game Over.ogg",
+   "role": "run ends"
+  }
+ ]
+}
