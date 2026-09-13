@@ -45,5 +45,6 @@ export function shipAssetPaths() {
   paths.push('assets/ships/rig/pole.png');
   paths.push('assets/ships/rig/nest.png');
   paths.push('assets/ships/gun/cannon.png');
+  paths.push('assets/ships/gun/cannonBall.png');
   return paths;
 }

@@ -1,4 +1,4 @@
-import { createState } from './state.js';
+import { createState, createShip } from './state.js';
 import { loadImages, shipAssetPaths, worldAssetPaths } from './assets.js';
 import { drawShip } from './render/shipRig.js';
 import { drawWorld } from './render/world.js';
@@ -10,6 +10,10 @@ import { updateShip } from './sim/sailing.js';
 import { resolveCollision } from './sim/collision.js';
 import { generateWorld } from './world/worldGen.js';
 import { TILE_SIZE } from './world/tileset.js';
+import { fireBroadside, sideTowards, updateCannonballs, updateReload } from './sim/gunnery.js';
+
+const MUZZLE_IMG = 'assets/fx/particles/muzzle_01.png';
+const HIT_IMG = 'assets/fx/pirate/explosion2.png';
 
 const canvas = document.getElementById('game');
 const ctx = canvas.getContext('2d');
@@ -23,21 +27,59 @@ resize();
 
 const world = generateWorld();
 const state = createState();
+state.balls = [];
+state.effects = []; // transient muzzle/hit flashes: {x,y,img,start,duration}
 
 // Start just off the port pier's water side.
 const [pierX, pierY] = world.pier[world.pier.length - 1];
 state.player.x = (pierX + 1.5) * TILE_SIZE;
 state.player.y = (pierY + 3) * TILE_SIZE; // south of the pier, facing open water
 
+// A stationary target for gunnery practice ahead of step 5's hostile AI.
+const target = createShip({
+  faction: 2,
+  x: state.player.x + 320,
+  y: state.player.y - 20,
+  heading: Math.PI / 2,
+});
+state.targets = [target];
+
 const camera = createCamera(state.player.x, state.player.y);
 
-const images = await loadImages([...shipAssetPaths(), ...worldAssetPaths()]);
+const images = await loadImages([...shipAssetPaths(), ...worldAssetPaths(), MUZZLE_IMG, HIT_IMG]);
 
 const input = createInput({
+  canvas,
   onAnchorToggle: () => {
     state.player.anchored = !state.player.anchored;
   },
+  onFire: (clientX, clientY) => {
+    const aim = clientToWorld(clientX, clientY);
+    const side = sideTowards(state.player, aim.x, aim.y);
+    const before = state.balls.length;
+    fireBroadside(state.player, side, (ball) => state.balls.push(ball));
+    if (state.balls.length > before) {
+      const muzzleBall = state.balls[before];
+      spawnEffect(MUZZLE_IMG, muzzleBall.x, muzzleBall.y, 0.12);
+    }
+  },
 });
+
+function clientToWorld(clientX, clientY) {
+  const rect = canvas.getBoundingClientRect();
+  const w = canvas.clientWidth;
+  const h = canvas.clientHeight;
+  const localX = clientX - rect.left;
+  const localY = clientY - rect.top;
+  return {
+    x: camera.x + (localX - w / 2),
+    y: camera.y + (localY - h / 2),
+  };
+}
+
+function spawnEffect(img, x, y, duration) {
+  state.effects.push({ img, x, y, start: performance.now() / 1000, duration });
+}
 
 buildDebugPanel(document.getElementById('debug-panel'), state.player, () => {});
 
@@ -66,6 +108,10 @@ function frame(now) {
     dt
   );
   resolveCollision(state.player, world, prevX, prevY);
+  updateReload(state.player, dt);
+  updateCannonballs(state.balls, [state.player, ...state.targets], dt, (ship, subsystem, x, y) => {
+    spawnEffect(HIT_IMG, x, y, 0.25);
+  });
   updateCamera(camera, state.player.x, state.player.y, dt);
 
   render(now / 1000);
@@ -84,10 +130,56 @@ function render(timeSec) {
   const originX = w / 2 - camera.x;
   const originY = h / 2 - camera.y;
   ctx.translate(originX, originY);
+
+  for (const t of state.targets) drawShip(ctx, images, t, t.x, t.y, SHIP_SCALE);
   drawShip(ctx, images, state.player, state.player.x, state.player.y, SHIP_SCALE);
+
+  const ball = images.get('assets/ships/gun/cannonBall.png');
+  for (const b of state.balls) {
+    ctx.drawImage(ball, b.x - ball.width / 2, b.y - ball.height / 2);
+  }
+
+  drawEffects(timeSec);
+
   ctx.restore();
 
   drawHud(w, h);
+  drawCrosshair();
+}
+
+function drawEffects(timeSec) {
+  for (let i = state.effects.length - 1; i >= 0; i--) {
+    const fx = state.effects[i];
+    const age = timeSec - fx.start;
+    if (age > fx.duration) {
+      state.effects.splice(i, 1);
+      continue;
+    }
+    const img = images.get(fx.img);
+    if (!img) continue;
+    ctx.save();
+    ctx.globalAlpha = 1 - age / fx.duration;
+    ctx.drawImage(img, fx.x - img.width / 2, fx.y - img.height / 2);
+    ctx.restore();
+  }
+}
+
+function drawCrosshair() {
+  const m = input.mouseClient();
+  const rect = canvas.getBoundingClientRect();
+  ctx.save();
+  ctx.strokeStyle = '#e8f4f8';
+  ctx.lineWidth = 1.5;
+  const x = m.clientX - rect.left;
+  const y = m.clientY - rect.top;
+  ctx.beginPath();
+  ctx.arc(x, y, 8, 0, Math.PI * 2);
+  ctx.moveTo(x - 12, y);
+  ctx.lineTo(x + 12, y);
+  ctx.moveTo(x, y - 12);
+  ctx.lineTo(x, y + 12);
+  ctx.stroke();
+  ctx.restore();
 }
 
 function drawHud(w, h) {
@@ -102,6 +194,7 @@ function drawHud(w, h) {
     `heading ${((ship.heading * 180) / Math.PI).toFixed(0)}°`,
     `wind ${((wind.angle * 180) / Math.PI).toFixed(0)}° @ ${(wind.strength * 100).toFixed(0)}%`,
     ship.anchored ? 'anchored' : ship.mastIntact ? 'under sail' : 'rowing (mast down)',
+    `target hull ${target.hullHp.toFixed(0)}  sail ${target.sailHp.toFixed(0)}  mast ${target.mastHp.toFixed(0)}  crew ${target.crewCount}`,
   ];
   lines.forEach((line, i) => ctx.fillText(line, 12, h - 12 - (lines.length - 1 - i) * 18));
 
@@ -125,7 +218,7 @@ function drawHud(w, h) {
   ctx.fillText('wind', w - 66, 20);
 
   ctx.fillStyle = '#9fd0e0';
-  ctx.fillText('A/D helm   W/S trim   Space anchor   M chart (soon)', 12, 20);
+  ctx.fillText('A/D helm   W/S trim   Space anchor   mouse aim, click fire   M chart (soon)', 12, 20);
 }
 
 requestAnimationFrame(frame);

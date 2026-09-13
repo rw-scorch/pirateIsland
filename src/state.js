@@ -11,11 +11,15 @@ export function createShip(overrides = {}) {
     speed: 0, // px/s, current
     trim: 0.5, // 0 (no sail) .. 1 (full sail)
     anchored: false,
-    hullCondition: 1, // 1 best .. 4 worst
-    sailWear: 1, // 1 clean .. 4 struck
+    hullCondition: 1, // 1 best .. 4 worst, derived from hullHp after combat damage
+    sailWear: 1, // 1 clean .. 4 struck, derived from sailHp after combat damage
     faction: 1, // 1..6, see FACTIONS
     crewCount: 6, // 0..6
     mastIntact: true,
+    hullHp: 100,
+    sailHp: 100,
+    mastHp: 60,
+    reloadTimer: 0,
     ...overrides,
   };
 }

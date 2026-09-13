@@ -3,15 +3,23 @@
 // which lines up as: sail, mast, crow's nest and flag are all horizontally
 // centered on the hull, at fixed vertical offsets from the hull's top edge.
 
+// hullLarge is 50x108 regardless of condition tint (verified: all four
+// hullLarge (N).png share this size). Exported so gunnery/damage code can
+// place muzzles and hit zones without loading an image first.
+export const HULL_W = 50;
+export const HULL_H = 108;
+
 const SAIL_TOP_OFFSET = 19; // px below hull top
 const MAST_TOP_OFFSET = -2; // px above hull top
 const NEST_TOP_OFFSET = 9;
 const FLAG_TOP_OFFSET = -5;
+export const SAIL_BAND = { top: SAIL_TOP_OFFSET, bottom: SAIL_TOP_OFFSET + 47 };
+export const MAST_ZONE = { top: MAST_TOP_OFFSET, bottom: NEST_TOP_OFFSET + 18, halfWidth: 12 };
 
 // Deck slots in hull-local pixel space (hullLarge is 50x108). Gun line sits
 // port and starboard amidships; crew fill the exposed deck fore of the sail
 // and aft of it.
-const GUN_SLOTS = [
+export const GUN_SLOTS = [
   { x: 6, y: 42, side: -1 },
   { x: 44, y: 42, side: 1 },
   { x: 6, y: 68, side: -1 },
