@@ -13,6 +13,10 @@ import { TILE_SIZE } from './world/tileset.js';
 import { fireBroadside, sideTowards, updateCannonballs, updateReload } from './sim/gunnery.js';
 import { updateAIShip } from './sim/ai.js';
 import { isHostile, isFlyingFalseColours, updateAdmiraltySuspicion, applyFireConsequence } from './sim/factions.js';
+import { createFog, revealAround } from './world/fog.js';
+import { drawChart, chartAssetPaths } from './render/chart.js';
+
+const REVEAL_RADIUS_TILES = 6;
 
 const MUZZLE_IMG = 'assets/fx/particles/muzzle_01.png';
 const HIT_IMG = 'assets/fx/pirate/explosion2.png';
@@ -48,9 +52,13 @@ const target = createShip({
 });
 state.targets = [target];
 
+const fog = createFog(world);
+revealAround(fog, world, state.player.x, state.player.y, REVEAL_RADIUS_TILES, TILE_SIZE);
+let chartOpen = false;
+
 const camera = createCamera(state.player.x, state.player.y);
 
-const images = await loadImages([...shipAssetPaths(), ...worldAssetPaths(), MUZZLE_IMG, HIT_IMG]);
+const images = await loadImages([...shipAssetPaths(), ...worldAssetPaths(), ...chartAssetPaths(), MUZZLE_IMG, HIT_IMG]);
 
 let firedThisFrame = false;
 
@@ -61,6 +69,10 @@ const input = createInput({
   },
   onFlagCycle: () => {
     state.player.flagFaction = (state.player.flagFaction % 6) + 1;
+  },
+  onChartToggle: () => {
+    chartOpen = !chartOpen;
+    document.getElementById('debug-panel').hidden = chartOpen;
   },
   onFire: (clientX, clientY) => {
     const aim = clientToWorld(clientX, clientY);
@@ -119,6 +131,7 @@ function frame(now) {
   );
   resolveCollision(state.player, world, prevX, prevY);
   updateReload(state.player, dt);
+  revealAround(fog, world, state.player.x, state.player.y, REVEAL_RADIUS_TILES, TILE_SIZE);
 
   for (const ai of state.targets) {
     const aiPrevX = ai.x;
@@ -146,6 +159,18 @@ function render(timeSec) {
 
   ctx.save();
   ctx.setTransform(devicePixelRatio, 0, 0, devicePixelRatio, 0, 0);
+
+  if (chartOpen) {
+    drawChart(ctx, images, world, fog, state.player, state.targets, w, h);
+    ctx.restore();
+    ctx.save();
+    ctx.setTransform(devicePixelRatio, 0, 0, devicePixelRatio, 0, 0);
+    ctx.fillStyle = '#2b2013';
+    ctx.font = '13px sans-serif';
+    ctx.fillText('M close chart', 12, 20);
+    ctx.restore();
+    return;
+  }
 
   drawWorld(ctx, images, world, camera, w, h, timeSec);
 
@@ -243,7 +268,7 @@ function drawHud(w, h) {
   ctx.fillText('wind', w - 66, 20);
 
   ctx.fillStyle = '#9fd0e0';
-  ctx.fillText('A/D helm  W/S trim  Space anchor  mouse aim, click fire  F false colours  M chart (soon)', 12, 20);
+  ctx.fillText('A/D helm  W/S trim  Space anchor  mouse aim, click fire  F false colours  M chart', 12, 20);
 }
 
 requestAnimationFrame(frame);
