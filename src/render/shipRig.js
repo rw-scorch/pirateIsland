@@ -83,8 +83,8 @@ export function drawShip(ctx, images, ship, screenX, screenY, scale = 1) {
   });
 
   if (ship.mastIntact) {
-    // sail
-    const sailIndex = sailIndexFor(ship.faction, ship.sailWear);
+    // sail — the emblem sewn into the cloth, i.e. the ship's real colours
+    const sailIndex = sailIndexFor(ship.sailFaction, ship.sailWear);
     const sail = img(images, `assets/ships/sail/sailLarge (${sailIndex}).png`);
     const sailX = originX + (hullW - sail.width) / 2;
     const sailY = originY + SAIL_TOP_OFFSET;
@@ -102,8 +102,9 @@ export function drawShip(ctx, images, ship, screenX, screenY, scale = 1) {
     const nestY = originY + NEST_TOP_OFFSET;
     ctx.drawImage(nest, nestX, nestY);
 
-    // flag
-    const flag = img(images, `assets/ships/flag/flag (${ship.faction}).png`);
+    // flag — whatever colours are actually flown; can differ from the sail
+    // (see sim/factions.js — that mismatch is running false colours)
+    const flag = img(images, `assets/ships/flag/flag (${ship.flagFaction}).png`);
     const flagX = originX + (hullW - flag.width) / 2;
     const flagY = originY + FLAG_TOP_OFFSET;
     ctx.drawImage(flag, flagX, flagY);

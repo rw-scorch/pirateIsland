@@ -13,8 +13,9 @@ export function buildDebugPanel(container, ship, onChange) {
     ship.sailWear = v;
     onChange();
   })));
-  container.appendChild(row('Faction', selectInput(FACTIONS.map((f) => [f.id, f.name]), ship.faction, (v) => {
-    ship.faction = v;
+  container.appendChild(row('Faction', selectInput(FACTIONS.map((f) => [f.id, f.name]), ship.sailFaction, (v) => {
+    ship.sailFaction = v;
+    ship.flagFaction = v;
     onChange();
   })));
   container.appendChild(row('Crew count', rangeInput(0, 6, ship.crewCount, (v) => {

@@ -4,6 +4,7 @@
 import { createWind } from './sim/wind.js';
 
 export function createShip(overrides = {}) {
+  const sailFaction = overrides.sailFaction ?? 1;
   return {
     x: 0,
     y: 0,
@@ -13,7 +14,9 @@ export function createShip(overrides = {}) {
     anchored: false,
     hullCondition: 1, // 1 best .. 4 worst, derived from hullHp after combat damage
     sailWear: 1, // 1 clean .. 4 struck, derived from sailHp after combat damage
-    faction: 1, // 1..6, see FACTIONS
+    sailFaction, // 1..6, the emblem sewn into the sail — a ship's real colours
+    flagFaction: sailFaction, // 1..6, the flag actually flown — settable independently;
+    // flagFaction !== sailFaction is running false colours (see sim/factions.js)
     crewCount: 6, // 0..6
     mastIntact: true,
     hullHp: 100,
@@ -35,8 +38,9 @@ export const FACTIONS = [
 
 export function createState() {
   return {
-    player: createShip({ faction: 1 }),
+    player: createShip({ sailFaction: 1 }),
     wind: createWind(),
+    standings: { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0 },
   };
 }
 
@@ -48,8 +52,12 @@ export function setSailWear(ship, value) {
   ship.sailWear = clamp(value, 1, 4);
 }
 
+// Debug-panel convenience: sets both sail and flag together, since the
+// panel is for calibrating ship assembly, not for testing false colours.
 export function setFaction(ship, value) {
-  ship.faction = clamp(value, 1, 6);
+  const v = clamp(value, 1, 6);
+  ship.sailFaction = v;
+  ship.flagFaction = v;
 }
 
 export function setCrewCount(ship, value) {

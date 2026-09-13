@@ -79,7 +79,7 @@ export function updateCannonballs(balls, ships, dt, onHit) {
       const subsystem = subsystemAt(ship, local.x, local.y);
       const damage = DAMAGE_MIN + Math.random() * (DAMAGE_MAX - DAMAGE_MIN);
       applyDamage(ship, subsystem, damage);
-      onHit?.(ship, subsystem, b.x, b.y);
+      onHit?.(ship, subsystem, b.x, b.y, b.shooter);
       hit = true;
       break;
     }

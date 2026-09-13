@@ -2,12 +2,13 @@
 // callback for anchor, since dropping/weighing anchor should toggle once
 // per press rather than repeat while held.
 
-export function createInput({ onAnchorToggle, onFire, canvas } = {}) {
+export function createInput({ onAnchorToggle, onFlagCycle, onFire, canvas } = {}) {
   const keys = new Set();
   const mouse = { clientX: 0, clientY: 0 };
 
   window.addEventListener('keydown', (e) => {
     if (e.code === 'Space' && !e.repeat) onAnchorToggle?.();
+    if (e.code === 'KeyF' && !e.repeat) onFlagCycle?.();
     keys.add(e.code);
   });
   window.addEventListener('keyup', (e) => {
