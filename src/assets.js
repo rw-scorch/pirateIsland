@@ -1,5 +1,7 @@
 // Thin image loading/caching layer. Paths are relative to index.html.
 
+import { tilePath } from './world/tileset.js';
+
 const cache = new Map();
 
 function loadImage(path) {
@@ -19,6 +21,19 @@ export async function loadImages(pathList) {
     pathList.map(async (path) => [path, await loadImage(path)])
   );
   return new Map(entries);
+}
+
+export function worldAssetPaths() {
+  const nums = [
+    2, 34, 17, 19, // sand edges
+    1, 3, 33, 35, // sand corners
+    4, 5, 18, 20, 21, 68, 69, // sand interior
+    39, 40, // grass interior
+    49, 50, 51, 65, 66, 67, // rock
+    64, 96, 80, // pier
+    13, 14, // mooring
+  ];
+  return nums.map(tilePath);
 }
 
 export function shipAssetPaths() {

@@ -1,11 +1,15 @@
 import { createState } from './state.js';
-import { loadImages, shipAssetPaths } from './assets.js';
+import { loadImages, shipAssetPaths, worldAssetPaths } from './assets.js';
 import { drawShip } from './render/shipRig.js';
+import { drawWorld } from './render/world.js';
 import { buildDebugPanel } from './debugPanel.js';
 import { createInput } from './input.js';
 import { createCamera, updateCamera } from './camera.js';
 import { updateWind } from './sim/wind.js';
 import { updateShip } from './sim/sailing.js';
+import { resolveCollision } from './sim/collision.js';
+import { generateWorld } from './world/worldGen.js';
+import { TILE_SIZE } from './world/tileset.js';
 
 const canvas = document.getElementById('game');
 const ctx = canvas.getContext('2d');
@@ -17,10 +21,17 @@ function resize() {
 window.addEventListener('resize', resize);
 resize();
 
+const world = generateWorld();
 const state = createState();
+
+// Start just off the port pier's water side.
+const [pierX, pierY] = world.pier[world.pier.length - 1];
+state.player.x = (pierX + 1.5) * TILE_SIZE;
+state.player.y = (pierY + 3) * TILE_SIZE; // south of the pier, facing open water
+
 const camera = createCamera(state.player.x, state.player.y);
 
-const images = await loadImages(shipAssetPaths());
+const images = await loadImages([...shipAssetPaths(), ...worldAssetPaths()]);
 
 const input = createInput({
   onAnchorToggle: () => {
@@ -31,7 +42,7 @@ const input = createInput({
 buildDebugPanel(document.getElementById('debug-panel'), state.player, () => {});
 
 // Exposed for manual inspection in devtools; not used by any UI.
-window.__marrowSea = { state, camera };
+window.__marrowSea = { state, camera, world };
 
 const SHIP_SCALE = 3;
 let lastTime = performance.now();
@@ -41,6 +52,8 @@ function frame(now) {
   lastTime = now;
 
   updateWind(state.wind, dt);
+  const prevX = state.player.x;
+  const prevY = state.player.y;
   updateShip(
     state.player,
     state.wind,
@@ -52,21 +65,21 @@ function frame(now) {
     },
     dt
   );
+  resolveCollision(state.player, world, prevX, prevY);
   updateCamera(camera, state.player.x, state.player.y, dt);
 
-  render();
+  render(now / 1000);
   requestAnimationFrame(frame);
 }
 
-function render() {
+function render(timeSec) {
   const w = canvas.clientWidth;
   const h = canvas.clientHeight;
 
   ctx.save();
   ctx.setTransform(devicePixelRatio, 0, 0, devicePixelRatio, 0, 0);
-  ctx.fillStyle = '#1b4a63';
-  ctx.fillRect(0, 0, w, h);
-  drawWaterTexture(w, h);
+
+  drawWorld(ctx, images, world, camera, w, h, timeSec);
 
   const originX = w / 2 - camera.x;
   const originY = h / 2 - camera.y;
@@ -75,26 +88,6 @@ function render() {
   ctx.restore();
 
   drawHud(w, h);
-}
-
-// Placeholder open-water look until step 3 brings the real tile world.
-function drawWaterTexture(w, h) {
-  const t = performance.now() / 1000;
-  ctx.save();
-  ctx.globalAlpha = 0.12;
-  ctx.strokeStyle = '#bfe3f0';
-  ctx.lineWidth = 2;
-  const spacing = 40;
-  const offset = ((t * 20) % spacing + spacing) % spacing;
-  for (let y = -spacing + offset; y < h + spacing; y += spacing) {
-    ctx.beginPath();
-    ctx.moveTo(0, y);
-    for (let x = 0; x <= w; x += 20) {
-      ctx.lineTo(x, y + Math.sin((x + t * 60) * 0.03) * 4);
-    }
-    ctx.stroke();
-  }
-  ctx.restore();
 }
 
 function drawHud(w, h) {
@@ -132,7 +125,7 @@ function drawHud(w, h) {
   ctx.fillText('wind', w - 66, 20);
 
   ctx.fillStyle = '#9fd0e0';
-  ctx.fillText('A/D helm   W/S trim   Space anchor', 12, 20);
+  ctx.fillText('A/D helm   W/S trim   Space anchor   M chart (soon)', 12, 20);
 }
 
 requestAnimationFrame(frame);
